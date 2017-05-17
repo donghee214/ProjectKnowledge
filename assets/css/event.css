@@ -1,0 +1,217 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*
+	Directive by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Reset */
+#imageSeperator{
+	float:left;
+}
+#formSeperator{
+	float:left;
+}
+
+.img-circle {
+    border-radius: 50%;
+		width: 450px;
+}
+
+.tag {
+	border:solid 2px #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 5px;
+	margin: 4px;
+	font-size: 10px;
+	cursor:pointer;
+}
+
+.tag:hover{
+    background-color: white;
+		color: black;
+}
+
+.eventbackground{
+	backdrop-filter: blur(5px);
+	content:url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_720/images/live/p0/1d/y0/p01dy048.jpg");
+	max-width:850px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+.image:after {
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	background-image: url("images/overlay.jpg");
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	opacity: 0.2;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#header {
+	background-attachment: scroll,							scroll,					fixed;
+	background-image: url("images/top-3200.svg"), url("images/overlay.jpg"), url("../../images/header.jpg");
+	background-position: bottom center,					top left,				center center;
+	background-repeat: repeat-x,						repeat,					no-repeat;
+	background-size: 3200px 460px,					auto,					cover;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10em 0 20em 0;
+	position: relative;
+	text-align: center;
+}
+
+#header {
+	background-attachment: scroll,							scroll,							scroll;
+	background-image: url("images/top-1600.svg"), url("images/overlay.jpg"), url("../../images/header.jpg");
+	background-size: 1600px 230px,					auto,							cover;
+	padding: 6em 0 12em 0;
+}
+
+#header {
+	background-image: url("images/top-1280.svg"), url("images/overlay.jpg"), url("../../images/header.jpg");
+	background-size: 1280px 184px,						auto,							cover;
+	padding: 3em 0 7em 0;
+}
