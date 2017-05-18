@@ -3,6 +3,7 @@ var ranOnce1 = false;
 var ranOnce2 = false;
 var ranOnce3 = false;
 var ranOnce4 = false;
+var event1Left;
 
 function testScroll(ev) {
     if ((window.pageYOffset > 740) && ranOnce3 == false) {
@@ -20,7 +21,7 @@ function testScroll(ev) {
         ranOnce4 = true;
     };
     if ((window.pageYOffset > 1600) && ranOnce == false) {
-        var event1Left = document.getElementById("uno");
+        event1Left = document.getElementById("uno");
         event1Left.className += " showDisplay";
         var event1Right = document.getElementById("dos");
         event1Right.className += " showDisplay";
@@ -89,6 +90,7 @@ function scroll3() {
 };
 
 
-var modal = document.getElementById("omgWork");
-modal.className += " bringModal";
-
+function clickMe() {
+var shit = document.getElementById("shit")
+   shit.className += " bringModal";
+}

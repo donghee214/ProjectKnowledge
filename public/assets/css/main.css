@@ -3176,7 +3176,7 @@ ul.social-icons {
 }
 
 .modal {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 100%;
     background-image: url("images/grey.png");
@@ -3185,8 +3185,16 @@ ul.social-icons {
     -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     transition: all 0.6s;
+	top: 0;
+	left: 0;
 }
 
 .bringModal{
-	opacity: 1;
+	opacity: 1 !important;
+	z-index:1 ;
+}
+
+
+a{
+    cursor: pointer;
 }
