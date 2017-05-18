@@ -80,6 +80,9 @@ ul.social-icons {
     transition: .5s;
     background-color: #322f30;
 }
+.fa-click {
+	text-align:left;
+}
 .fa-linkedin:hover {
     background-color: #0073a4;
 }
@@ -97,7 +100,7 @@ ul.social-icons {
 }
 .button {
   border-radius: 4px;
-  background-color: #f4511e;
+	background: linear-gradient(to right, #1cd8d2 , #93edc7);
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -137,14 +140,19 @@ ul.social-icons {
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.fa-plus{
+	margin-bottom: : 10px;
+}
+
 /* Reset */
 #imageSeperator{
 	float:left;
-	margin-right: 10px;
+	margin-left: 100px;
 }
 #formSeperator{
+	margin-left: 30px;
 	float:left;
-	margin: 10px;
+	text-align: left;
 }
 
 .img-circle {
@@ -226,4 +234,22 @@ ul.social-icons {
 	-moz-box-shadow: 0px 1px 16px #000000;
 	-webkit-box-shadow: 0px 1px 16px #000000;
 	box-shadow: 0px 1px 16px #000000;
+}
+
+.moomoo span:after{
+	content:"\00a0\00a0\00a0\00a0\00a0";
+	text-decoration:line-through;
+}
+.moomoo span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+
+h1{
+	margin: 1px;
+	color: #1cd8d2;
+}
+
+img{
+	width: 500px;
 }
