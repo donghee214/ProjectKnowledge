@@ -24,8 +24,9 @@
         <span class="logo icon icon1"></span>
         <h1>Let's Eat.</h1>
         <p>Hi. Let's Talk About This Over Food.</a><br>
-		<i class="fa fa-angle-down fa-3x" id="arrow" onclick="scroll1()" aria-hidden="true"></i>
-			<br />
+            <i class="fa fa-angle-down fa-3x" id="arrow" onclick="scroll1()" aria-hidden="true" style="    left: 48.4%;
+    position: absolute;"></i>
+            <br />
             <br />
         </p>
     </div>
@@ -34,52 +35,75 @@
     <div id="main">
 
         <header class="major container 75%" style="margin-bottom: 14em; margin-top:5em; font-size:1.15em">
-           Food is our universal denominator. 
-We are breaking down barriers with food so you can share your skills and life experiences with your neighbours in the community. <br><br>
-<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+            <div class="hidden" id="bio"> Food is our universal denominator. We are breaking down barriers with food so you can share your skills and life experiences with your neighbours in the community.</div> <br><br>
+            <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
 
-<i class="fa fa-angle-down fa-3x abs" id="arrow" onclick="scroll2()" aria-hidden="true"></i>
-            <!--
-					<p>Tellus erat mauris ipsum fermentum<br />
-					etiam vivamus nunc nibh morbi.</p>
-					-->
+            <i class="fa fa-angle-down fa-3x abs" id="arrow" onclick="scroll2()" aria-hidden="true"></i>
         </header>
 
-		     <header class="major container 75%" style="margin-bottom: 20em;margin-top: 25em;">
+        <header class="major container 75%" style="margin-bottom: 20em;margin-top: 25em;">
             <h2>
-                <div class="one"><i class="fa fa-book fa-1x" aria-hidden="true"></i> Teach A Skill</div>
-                <div class="two"><i class="fa fa-money" aria-hidden="true"></i> Teach A Skill</div>
-                <div class="three"><i class="fa fa-pencil" aria-hidden="true"></i> Teach A Skill</div>
+                <div id="bio1" class="one hiddenLeft"><i class="fa fa-book fa-1x" aria-hidden="true"></i> Discuss a Topic</div>
+                <div id="bio3" class="two hiddenRight"><i class="fa fa-money" aria-hidden="true"></i> Sponsor a Meal
+
+                </div>
+                <div id="bio2" class="three hiddenLeft"><i class="fa fa-pencil" aria-hidden="true"></i><a class="typeform-share" href="https://noober.typeform.com/to/bwuAyP" data-mode="drawer_left"
+                        target="_blank"> Teach a Topic</a>
+                    <script>
+                        (function() {
+                            var qs, js, q, s, d = document,
+                                gi = d.getElementById,
+                                ce = d.createElement,
+                                gt = d.getElementsByTagName,
+                                id = "typef_orm_share",
+                                b = "https://embed.typeform.com/";
+                            if (!gi.call(d, id)) {
+                                js = ce.call(d, "script");
+                                js.id = id;
+                                js.src = b + "embed.js";
+                                q = gt.call(d, "script")[0];
+                                q.parentNode.insertBefore(js, q)
+                            }
+                        })()
+                    </script>
+                </div>
             </h2>
             <!--
 					<p>Tellus erat mauris ipsum fermentum<br />
 					etiam vivamus nunc nibh morbi.</p>
 					-->
-					<i class="fa fa-angle-down fa-3x abs" id="arrow" onclick="scroll3()" aria-hidden="true"></i>
+            <i class="fa fa-angle-down fa-3x abs" id="arrow" onclick="scroll3()" aria-hidden="true"></i>
         </header>
+<div class="modal">
 
+</div>
         <div class="box alt container">
             <section class="feature left">
-                <a href="#" class="image icon fa-signal" id="uno"><img src="images/pic01.jpg" alt="" /></a>
+                <a class="image icon fa-usd" id="uno"><img src="images/food4.jpg" alt="" style="height: 46%;
+    width: 45%;" />
+                </a>
                 <div class="content" id="dos">
                     <h3>The First Thing</h3>
-					<h4>January 1 2017</h4>
+                    <h4>January 1 2017</h4>
                     <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+
                 </div>
             </section>
             <section class="feature right">
-                <a href="#" class="image icon fa-code" id="trois"><img src="images/pic02.jpg" alt="" /></a>
+                <a href="#" class="image icon fa-desktop" id="trois"><img src="images/food5.jpg" alt="" style="height: 32%;
+        left: -10%;" /></a>
                 <div class="content" id="quatro">
                     <h3>The Second Thing</h3>
-					<h4>January 1 2017</h4>
+                    <h4>January 1 2017</h4>
                     <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
                 </div>
             </section>
             <section class="feature left">
-                <a href="#" class="image icon fa-mobile" id="cinco"><img src="images/pic03.jpg" alt="" /></a>
+                <a href="#" class="image icon fa-file-text-o" id="cinco"><img src="images/food6.jpg" alt="" style="height: 32%;
+        left: -15%;" /></a>
                 <div class="content" id="six">
                     <h3>The Third Thing</h3>
-					<h4>January 1 2017</h4>
+                    <h4>January 1 2017</h4>
                     <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
                 </div>
             </section>
@@ -235,10 +259,27 @@ We are breaking down barriers with food so you can share your skills and life ex
 				-->
 
         <footer class="major container 75%">
-            <h3>Get shady with science</h3>
-            <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">Join our crew</a></li>
+            <h3>Let Other's Know!</h3>
+            <p>Share on Social Media and Get the word out there!</p>
+            <ul class="actions social-icons">
+                <li>
+                    <a href="" class="social-icon"> <i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social-icon"> <i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social-icon"> <i class="fa fa-rss"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social-icon"> <i class="fa fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a>
+                </li>
             </ul>
         </footer>
 
@@ -276,19 +317,6 @@ We are breaking down barriers with food so you can share your skills and life ex
                     </div>
                 </div>
             </form>
-
-            <ul class="icons">
-                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-                <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-            </ul>
-
-            <ul class="copyright">
-                <li>&copy; Untitled. All rights reserved.</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
 
         </div>
     </div>
