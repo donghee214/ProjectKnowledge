@@ -1,3 +1,7 @@
+#Project Knowledge
+
+Is a prototype website created during the 2017 United Way Hackathon. The main purpose of the application was to bridge gaps between communities by introducing food as a common theme.
+
 # Node.js Hello World Sample
 
 This application demonstrates a simple, reusable Node.js web application based on the Express framework.
